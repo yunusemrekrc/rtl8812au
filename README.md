@@ -204,6 +204,11 @@ Run `python tools/file_search.py --help` for options. Example usage:
 $ python tools/file_search.py -d /path/to/dir --name "*.txt"
 ```
 
+The same script is also available in the `My_program` directory for convenience:
+```sh
+$ python My_program/file_search.py --help
+```
+
 
 ### Credits / Contributors
 
