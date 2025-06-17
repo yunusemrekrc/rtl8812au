@@ -195,6 +195,20 @@ at the end of file /etc/NetworkManager/NetworkManager.conf and restart NetworkMa
 ```
 $ sudo service NetworkManager restart
 ```
+### File search utility
+
+A Python script is provided under `tools/file_search.py` to help locate files by name or search for text within files.
+
+Run `python tools/file_search.py --help` for options. Example usage:
+```sh
+$ python tools/file_search.py -d /path/to/dir --name "*.txt"
+```
+
+The same script is also available in the `My_program` directory for convenience:
+```sh
+$ python My_program/file_search.py --help
+```
+
 
 ### Credits / Contributors
 
